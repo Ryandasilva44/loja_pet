@@ -5,11 +5,11 @@ HOME | ABOUT | CONTACT
 
 # tecnologias usadas nesse projeto
 
-1- Angular v17 = Osei esse framework para fazer meu fron-end.
+1- Angular v17 = Usei esse framework para fazer meu fron-end.
 
 2- Html = O html usei para fazer a estrutura do projeto.
 
-3- Scss = Use o sass para fazer a estilização do meu projeto essa tecnologia pode ser compilada com o css.
+3- Scss = Usei o sass para fazer a estilização do meu projeto essa tecnologia pode ser compilada com o css.
 
 4- Bootstrap 5 = Usei essa biblioteca do css para deixar o site todo responsivo em todos os tamanhos de telas.
 
@@ -20,7 +20,7 @@ HOME | ABOUT | CONTACT
 1 passo: npm install -g @angular/cli@17 (para instalar a versão 17)
 2 passo: ng new nome-do-projeto.
 3 passo: cd nome-do-projeto.
-4 passo: ng serve (vai aparecer o localhost:4200 voce copia e cola noseu navegador).
+4 passo: ng serve (vai aparecer o localhost:4200 voce copia e cola no seu navegador).
 
 # Duvida sobre NODE.JS
 
