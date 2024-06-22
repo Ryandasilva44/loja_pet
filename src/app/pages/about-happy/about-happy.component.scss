@@ -1,0 +1,41 @@
+$color-cor: #121212;
+
+.title {
+  font-family: "Open Sans";
+  color: $color-cor;
+  margin: -5rem 0rem 1.5rem 0rem;
+}
+
+.img_01,
+.img_02,
+.img_03,
+.img_04,
+.img_05,
+.img_06 {
+  width: 19.187rem;
+  height: 18.312rem;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  transition: background-size 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  &:hover {
+    cursor: pointer;
+    background-size: 120%;
+  }
+}
+
+@media (max-width: 768px) {
+  .group__img {
+    padding: 0rem 2.7rem;
+  }
+
+  .img_01,
+  .img_02,
+  .img_03,
+  .img_04,
+  .img_05,
+  .img_06 {
+    margin: 0.5rem -0.9rem;
+  }
+}

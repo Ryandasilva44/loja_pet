@@ -1,0 +1,80 @@
+$bg-color-2: #fff9eb;
+$bg-color-1: #fbc43c;
+$color-cor: #111;
+
+
+.btn_02 {
+  background: $bg-color-1;
+  font-size: 1rem;
+  font-family: "Open Sans";
+  color: $color-cor;
+  width: 8rem;
+  height: 3.096rem;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+
+.text_icon,
+.text_icon_01,
+.text_icon_02,
+.text_icon_03 {
+font-size: 1.25rem;
+font-family: "Ubuntu";
+font-weight: 600;
+}
+
+.box_icon {
+max-width: 63.062rem;
+height: 23.687rem;
+background: $bg-color-2;
+
+.title_text {
+  font-size: 3rem;
+  font-family: "Ubuntu";
+  font-weight: 600;
+}
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .title_container_01 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .paragraph_container_01 {
+      text-align: center;
+      font-size: 1.875rem;
+    }
+
+    .paragraph_container_02 {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    button {
+      display: block;
+      margin: 0rem 0rem 0rem 5rem;
+    }
+  }
+
+  .title_text {
+    font-size: 1.25rem;
+  }
+
+  .box_icon {
+    height: 49.937rem;
+  }
+
+  .group_icons {
+    flex-direction: column;
+  }
+}
+

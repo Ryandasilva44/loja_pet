@@ -1,0 +1,37 @@
+$color-primary: #0a0ee7 !important;
+$color-secundary: #daa520 !important;
+
+.navbar-nav {
+  flex-direction: column;
+  text-align: left;
+}
+
+.link-active,
+.link-about,
+.link-contact {
+  font-family: "Open Sans";
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    flex-direction: row;
+    text-align: center;
+  }
+}
+
+.link-active {
+  color: $color-primary;
+}
+.link-about {
+  &:hover {
+    cursor: pointer;
+    color: $color-secundary;
+  }
+}
+
+.link-contact {
+  &:hover {
+    cursor: pointer;
+    color: $color-secundary;
+  }
+}

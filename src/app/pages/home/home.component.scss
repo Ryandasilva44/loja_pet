@@ -1,0 +1,96 @@
+$primary-color: #833de7;
+$secundary-color: #fbc43c;
+$color: #111111;
+$color1: #fff;
+
+div {
+  img {
+    margin: 7rem 0rem 2rem 0rem;
+  }
+}
+
+p {
+  font-size: 4rem;
+  font-family: "Ubuntu";
+  letter-spacing: 0.25rem;
+  float: start;
+}
+
+@media (max-width: 768px) {
+  p {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  button {
+    display: block;
+    margin: 0rem 0rem 0rem 7rem;
+  }
+  .container {
+    text-align: center;
+  }
+}
+
+.button-about {
+  width: 8.03125rem;
+  height: 3.099rem;
+  font-size: 1rem;
+  font-family: "Open Sans";
+  color: $color1;
+  background: $primary-color;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.button-contact {
+  width: 8.03125rem;
+  height: 3.099rem;
+  font-size: 1rem;
+  font-family: "Open Sans";
+  color: $color;
+  background: $secundary-color;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+div {
+  .img-01 {
+    width: 29.375rem;
+    height: 29.375rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.container {
+  flex-wrap: wrap;
+
+  .item {
+    flex: 1 1 100px;
+  }
+}
+
+.img-01 {
+  animation: moveAndRotateFromRight 3s ease forwards;
+  animation-duration: 6s;
+  position: relative;
+
+  @keyframes moveAndRotateFromRight {
+    0% {
+      transform: translateX(100%) rotate(0deg);
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateX(0) rotate(360deg);
+      opacity: 1;
+    }
+  }
+}

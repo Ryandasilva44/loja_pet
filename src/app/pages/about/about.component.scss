@@ -1,0 +1,25 @@
+$bg-color: #fbc43c;
+
+div.box {
+  border: 1px solid #dcdcdc;
+  max-width: 62.5rem;
+  min-height: auto;
+  background: $bg-color;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin: 3.75rem auto 0;
+}
+
+.paragraph {
+  font-size: 1.125rem;
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+.img_dog {
+  object-fit: cover;
+  background-size: center;
+}

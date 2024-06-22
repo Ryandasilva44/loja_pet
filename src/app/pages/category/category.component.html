@@ -1,0 +1,82 @@
+<div class="container">
+  <h1 class="title mb-5">{{ textTitle4 }}</h1>
+  <section class="d-flex Elements itens mb-1">
+    <div class="box border border-1 text-center p-4">
+      <p class="title-01">{{ textTitle }}</p>
+      <p class="paragraph">{{ textPragraph }}</p>
+
+      <img
+        [src]="getImage"
+        alt="Imagem de uma seta para direita"
+        class="bg-black img-set"
+      />
+    </div>
+    <div>
+      <img
+        [src]="getImage1"
+        alt="Imagem de um cachorro"
+        class="img-dog img-fluid"
+        appAnimateOnScroll
+        [animationClass]="'animate__zoomIn'"
+        [delayClass]="'animate__delay-2s'"
+        [durationClass]="'animate__duration-1s'"
+      />
+    </div>
+
+    <div class="box1 border border-1 text-center p-4">
+      <p class="title1">{{ textTitle1 }}</p>
+      <p class="paragraph-01">{{ textPragraph }}</p>
+      <img
+        [src]="getImage"
+        alt="Imagem de uma seta para direita"
+        class="bg-black img-set-01"
+      />
+    </div>
+  </section>
+  <section class="d-flex Elements">
+    <img
+      [src]="getImage2"
+      alt="imagem de cachorro preto"
+      class="img-dog_01 img-fluid"
+      appAnimateOnScroll
+      [animationClass]="'animate__zoomIn'"
+      [delayClass]="'animate__delay-2s'"
+      [durationClass]="'animate__duration-1s'"
+    />
+
+    <div class="box2 border border-01 text-center p-4">
+      <p class="title2">{{ textTitle2 }}</p>
+      <p class="paragraph-02">{{ textPragraph }}</p>
+      <img
+        [src]="getImage"
+        alt="iamgem de uma seta para a direita"
+        class="bg-black img-set-02"
+      />
+    </div>
+
+    <img
+      [src]="getImage3"
+      alt="imagem de cachorro sorrindo"
+      class="img-dog_02 img-fluid"
+      appAnimateOnScroll
+      [animationClass]="'animate__zoomIn'"
+      [delayClass]="'animate__delay-2s'"
+      [durationClass]="'animate__duration-1s'"
+    />
+  </section>
+</div>
+<section class="container-fluid notice">
+  <div>
+    <div class="box3 text-center p-lg-5">
+      <p class="title_main">{{ textTitle3 }}</p>
+      <p class="paragraph_main">{{ textParagraph1 }}</p>
+      <button
+        class="button_main btn border border-1 py5 px-4 text-center text-light border-0"
+      >
+        Our Shop
+      </button>
+    </div>
+  </div>
+</section>
+
+<app-descontos></app-descontos>

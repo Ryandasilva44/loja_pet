@@ -1,0 +1,157 @@
+$pprimary-color: #eee9e9;
+$primary-color-01: #833de7;
+$color-cor: #111;
+$bg-color: #fbc43c;
+
+.container {
+  .title {
+    font-family: "Ubuntu";
+  }
+
+  .box {
+    max-width: 19.998rem;
+    height: 16.736rem;
+    background: $pprimary-color;
+
+    .title-01 {
+      font-size: 1.875rem;
+      font-family: "Ubuntu";
+    }
+
+    .paragraph {
+      font-size: 1.125rem;
+      font-family: "Open Sans";
+    }
+
+    .img-set {
+      max-width: 2.312rem;
+      height: 2.312rem;
+      border-radius: 50%;
+      background-color: $pprimary-color;
+    }
+  }
+
+  .img-dog {
+    width: 19.998rem;
+    height: 16.736rem;
+    object-fit: cover;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  .box1 {
+    max-width: 19.998rem;
+    height: 16.736rem;
+    background: $pprimary-color;
+
+    .title1 {
+      font-size: 1.875rem;
+      font-family: "Ubuntu";
+    }
+
+    .paragraph-01 {
+      font-size: 1.125rem;
+      font-family: "Open Sans";
+    }
+
+    .img-set-01 {
+      max-width: 2.312rem;
+      height: 2.312rem;
+      border-radius: 50%;
+    }
+  }
+
+  .img-dog_01 {
+    width: 19.998rem;
+    height: 16.736rem;
+    object-fit: cover;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  .box2 {
+    max-width: 19.998rem;
+    height: 16.736rem;
+    background: $pprimary-color;
+  }
+
+  .title2 {
+    font-size: 1.875rem;
+    font-family: "Ubuntu";
+  }
+
+  .paragraph-02 {
+    font-size: 1.125rem;
+    font-family: "Open Sans";
+  }
+
+  .img-set-02 {
+    max-width: 2.312rem;
+    height: 2.312rem;
+    border-radius: 50%;
+  }
+
+  .img-dog_02 {
+    width: 19.998rem;
+    height: 16.736rem;
+    object-fit: cover;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  .Elements {
+    gap: 0.2rem;
+  }
+}
+.notice {
+  max-width: 63.062rem;
+  height: 19.75rem;
+  background: $bg-color;
+  margin: 2rem 0rem 3rem 0rem;
+
+  .title_main {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    color: $color-cor;
+    font-weight: 300;
+  }
+
+  .paragraph_main {
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 600;
+  }
+
+  .button_main {
+    background: $primary-color-01;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    .title {
+      text-align: center;
+    }
+
+    .Elements {
+      display: flex;
+      flex-direction: column;
+      margin: 1.5rem;
+    }
+  }
+}
+
+

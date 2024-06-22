@@ -1,0 +1,82 @@
+<section
+  class="container d-flex justify-content-evenly align-items-center mb-5"
+>
+  <div class="">
+    <img [src]="getImage" class="img-fluid img-cat" />
+  </div>
+  <div>
+    <p class="title_container_01">{{ textTitle }}</p>
+    <p class="paragraph_container_01">{{ textParagraph }}</p>
+    <p class="paragraph_container_02">{{ textParagraph1 }}</p>
+    <button class="btn_01 me-4 mb-4 text-light border-0">
+      {{ textButton }}
+    </button>
+    <button class="btn_02 border-0 mb-5">
+      {{ textButton1 }}
+    </button>
+  </div>
+</section>
+
+<div class="container box_icon text-center p-5">
+  <p class="title_text">{{ textSecundary }}</p>
+  <div
+    class="d-flex justify-content-center align-items-center p-5 px-1 group_icons"
+  >
+    <div class="box me-lg-auto">
+      <img
+        [src]="imgIcon"
+        alt="icone de Qualidade"
+        class="img-fluid"
+        width="64px"
+        appAnimateOnScroll
+        [animationClass]="'animate__zoomIn'"
+        [delayClass]="'animate__delay-2s'"
+        [durationClass]="'animate__duration-1s'"
+      />
+      <p class="text_icon">{{ textIcon }}</p>
+    </div>
+
+    <div class="box-01 me-lg-auto">
+      <img
+        [src]="imgIcon1"
+        alt="icon de fair princing"
+        class="img-fluid"
+        width="64px"
+        appAnimateOnScroll
+        [animationClass]="'animate__zoomIn'"
+        [delayClass]="'animate__delay-2s'"
+        [durationClass]="'animate__duration-1s'"
+      />
+      <p class="text_icon_01">{{ textIcon1 }}</p>
+    </div>
+
+    <div class="box-02 me-lg-auto">
+      <img
+        [src]="imgIcon2"
+        alt="icon de transparencia"
+        class="img-fluid"
+        width="64px"
+        appAnimateOnScroll
+        [animationClass]="'animate__zoomIn'"
+        [delayClass]="'animate__delay-2s'"
+        [durationClass]="'animate__duration-1s'"
+      />
+      <p class="text_icon_02">{{ textIcon2 }}</p>
+    </div>
+
+    <div class="box-03 me-lg-1">
+      <img
+        [src]="imgIcon3"
+        alt="icone de familia de negócios"
+        class="img-fluid"
+        width="64px"
+        appAnimateOnScroll
+        [animationClass]="'animate__zoomIn'"
+        [delayClass]="'animate__delay-2s'"
+        [durationClass]="'animate__duration-1s'"
+      />
+      <p class="text_icon_03">{{ textIcon3 }}</p>
+    </div>
+  </div>
+</div>
+<app-instagram></app-instagram>

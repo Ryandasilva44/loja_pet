@@ -1,0 +1,50 @@
+$bg-color: #833de7;
+$color-cor: #fff;
+
+.container {
+  .bi {
+    font-size: 2.375rem;
+    background: $bg-color;
+    color: $color-cor;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    padding-left: 0.744rem;
+    padding-top: 0.3rem;
+  }
+}
+
+.title_main {
+  font-size: 3em;
+  font-family: "Ubuntu";
+  font-weight: 600;
+  letter-spacing: 1.125;
+}
+
+div {
+  img {
+    width: 14.187rem;
+    height: 14.937rem;
+    margin: 0.25rem;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .title_main {
+    font-size: 1.875rem;
+    text-align: center;
+  }
+
+  .container-01 {
+   flex-direction: column;
+    padding: 3rem;
+  }
+
+  div{
+    img{
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+}

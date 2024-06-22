@@ -1,0 +1,72 @@
+$color-cor: #111111;
+$bg-color: #833de7;
+.title {
+  font-size: 3rem;
+  font-family: "Ubuntu";
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.rounded-circle {
+  background: $bg-color;
+}
+
+.address,
+.hour,
+.social {
+  font-family: "Ubuntu";
+}
+
+.text,
+.number,
+.text01 {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.email {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.tel {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.bi {
+  font-size: 2.35rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .address {
+    font-size: 1.25rem;
+    margin: 7rem;
+  }
+
+  .texts {
+    width: 20rem;
+    margin: -5rem 0rem 2rem 0rem;
+  }
+
+  .texts1 {
+    width: 20rem;
+    margin: 2.5rem 0rem 2rem 0rem;
+  }
+
+  .texts2 {
+    width: 20rem;
+    margin: 1.25rem 0rem 2rem 0rem;
+  }
+
+  .bi {
+    margin: 0rem 7.22rem;
+  }
+}

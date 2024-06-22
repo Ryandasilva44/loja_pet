@@ -1,0 +1,31 @@
+<section class="container d-flex justify-content-center align-items-center">
+  <i
+    class="bi bi-instagram mt-5"
+    appAnimateOnScroll
+    [animationClass]="'animate__zoomIn'"
+    [delayClass]="'animate__delay-2s'"
+    [durationClass]="'animate__duration-1s'"
+  ></i>
+</section>
+<p class="title_main text-lg-center mt-5">{{ textTitle }}</p>
+<div class="container container-01 d-flex">
+  <img
+    [src]="imgDog"
+    alt="Imagem de um cachorro com um osso"
+    class="img-fluid"
+  />
+  <img [src]="imgCat" alt="Imagem de um gato cinza" class="img-fluid" />
+  <img
+    [src]="imgDog1"
+    alt="Imagem de um cachorro olhando para cima"
+    class="img-fluid"
+  />
+  <img
+    [src]="imgCat1"
+    alt="Imagem de um gato olhando para cima"
+    class="img-fluid"
+  />
+</div>
+
+<app-form></app-form>
+

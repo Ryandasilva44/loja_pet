@@ -1,0 +1,81 @@
+$bg-color: #833de7;
+$color-cor: #111;
+$color-cor1: #fbc43c;
+
+
+
+
+.btn{
+  background: $color-cor1;
+  font-size: 1rem;
+  font-family: 'Open Sans';
+
+&:hover{
+  opacity: 0.7;
+}
+
+
+}
+
+.form {
+  background: $bg-color;
+
+  ::placeholder {
+    font-size: 1rem;
+    font-family: "Open Sans";
+  }
+
+  .title {
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 600;
+    line-height: 1.1;
+  }
+}
+section {
+  .input_email {
+    background: none;
+    border: none;
+    border-bottom: 1px solid $color-cor;
+    font-size: 1.5rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .text_email {
+    font-size: 1rem;
+    font-family: "Open Sans";
+  }
+
+  .text_name {
+    font-size: 1rem;
+    font-family: "Open Sans";
+  }
+
+  .input_name {
+    background: none;
+    border: none;
+    border-bottom: 1px solid $color-cor;
+    font-size: 1.5rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1rem;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  .item_name {
+    margin: 2rem 0rem 0rem -3rem;
+  }
+}

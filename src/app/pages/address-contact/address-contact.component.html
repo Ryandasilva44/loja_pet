@@ -1,0 +1,37 @@
+<p class="text-center title">{{ textTitle }}</p>
+
+<div class="container d-lg-flex row-gap-5 justify-content-center gap-5 mt-5">
+  <div class="w-25 text-center p-3 mb-1 border_address">
+    <i
+      class="bi bi-house border p-3 rounded-circle link-light"
+      appAnimateOnScroll
+    ></i>
+    <p class="address mt-4 fw-bold">{{ textAddress }}</p>
+    <div class="texts">
+      <p class="text">{{ textParagraph }}</p>
+      <p class="email">{{ emailParagraph }}</p>
+      <p class="tel">{{ telParagraph }}</p>
+    </div>
+  </div>
+
+  <div class="border-0 w-25 text-center p-3 mb-1">
+    <i class="bi bi-clock p-3 rounded-circle link-light" appAnimateOnScroll></i>
+    <div class="texts1">
+      <p class="hour fw-bold mt-4">{{ textHour }}</p>
+      <p class="number">{{ textNumber }}</p>
+    </div>
+  </div>
+
+  <div class="border-0 w-25 text-center p-3">
+    <i
+      class="bi bi-heart border p-3 rounded-circle link-light"
+      appAnimateOnScroll
+    ></i>
+
+    <div class="texts2">
+      <p class="social fw-bold mt-4">{{ textSocial }}</p>
+      <p class="text01">{{ textText }}</p>
+    </div>
+  </div>
+</div>
+<app-instagram></app-instagram>

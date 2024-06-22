@@ -1,0 +1,40 @@
+<section class="form container-fluid border border-1">
+  <p class="title text-center p-3 text-light">
+    {{ textTitle }}
+  </p>
+
+  <form class="group_form d-flex justify-content-center align-items-center">
+    <div class="">
+      <label for="text" class="text_email text-light">Email</label><br />
+      <input
+        type="text"
+        id="text"
+        name="text"
+        class="input_email me-5"
+        placeholder="Enter a valid email address"
+        required
+      />
+    </div>
+
+    <div class="item_name">
+      <label for="text" class="text-light text_name">Name</label><br />
+      <input
+        type="name"
+        name="name"
+        id="name"
+        class="input_name"
+        placeholder="Enter your Name"
+        required
+      />
+    </div>
+  </form>
+  <br /><br />
+  <div class="d-flex justify-content-center align-items-center mb-3">
+    <button
+      type="submit"
+      class="btn border px-4 text-dark text-center border-0"
+    >
+      Submit
+    </button>
+  </div>
+</section>

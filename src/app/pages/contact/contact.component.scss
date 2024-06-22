@@ -1,0 +1,50 @@
+$color-cor: #131313;
+$bg-color: #833de6;
+$color-cor1: #f2f2f2;
+
+.box_email {
+  padding: 5rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: "OPen Sans";
+}
+
+.button_contact {
+  font-family: "Open Sans";
+  display: flex;
+  justify-content: center;
+
+  .button_submit {
+    border: none;
+    background: none;
+    background: $bg-color;
+    color: #f2f2f2;
+    font-size: 1rem;
+
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+}
+
+label {
+  font-size: 1rem;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid $color-cor;
+  min-width: 100%;
+  margin: 0rem 0rem 1rem 0rem;
+  outline: none;
+}
+::placeholder {
+  font-size: 0.7rem;
+  font-family: "Open Sans";
+}

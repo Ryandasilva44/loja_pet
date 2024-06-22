@@ -1,0 +1,47 @@
+<div
+  class="container-fluid background mb-3"
+  style="background-image: url('../../../assets/background-yellow.jpeg')"
+>
+  <div class="box_contact">
+    <p class="title text-center">{{ textTitle }}</p>
+
+    <div class="w-100 text-start box_email">
+      <label for="Name" class="name_contact">{{ textName }}</label
+      ><br />
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+        required
+      /><br /><br />
+
+      <label for="Email" class="email_contact">{{ textEmail }}</label
+      ><br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter a valid email address"
+        required
+      /><br />
+
+      <label for="Message" class="message_contact mt-5">{{ textMessage }}</label
+      ><br />
+      <input
+        type="text"
+        name="message"
+        id="message"
+        placeholder="Enter your message"
+        required
+      />
+      <br />
+      <div class="button_contact">
+        <button type="submit" class="p-2 px-4 mt-3 button_submit">
+          SUBMIT
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<app-address-contact></app-address-contact>

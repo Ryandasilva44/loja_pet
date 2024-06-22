@@ -1,0 +1,66 @@
+div.boxes {
+  padding: 12rem 0;
+}
+
+.paragraph_section {
+  font-size: 1.125rem;
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+
+.paragraph_secundary-section {
+  font-size: 1.25rem;
+  font-family: "Ubuntu";
+  font-weight: 600;
+}
+
+.paragraph {
+  font-size: 2rem;
+  font-family: "Ubuntu";
+  font-weight: 300;
+}
+
+.img_dog{
+  animation: moveAndRotateFromRight 3s ease forwards;
+  animation-duration: 6s;
+  position: relative;
+
+  @keyframes moveAndRotateFromRight {
+    0% {
+      transform: translateX(-100%) rotate(0deg);
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateX(0) rotate(360deg);
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .boxes {
+    margin: -7rem 0rem 0rem 0.1rem;
+  }
+
+  .paragraph_section {
+    width: 22rem;
+    font-size: 1rem;
+    margin: 0rem 0.5rem;
+  }
+
+  .paragraph_secundary-section {
+    width: 21rem;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .paragraph {
+    width: 22rem;
+    text-align: center;
+  }
+}
